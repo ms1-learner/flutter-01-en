@@ -11,4 +11,4 @@ Your tasks are as follows:
 - Compare the lengths of both paragraphs and print something like "Paragraph 1 is longer as it has `X` characters more than paragraph 2" where `X` is the difference in characters between both.
 - Print a message that reads "The length of paragraph 1 is: `X`" where `X` is the length of the paragraph. Do the same for paragraph 2.
 - Print the lowercase variant of both paragraph after you've replaced all the wrong words within each.
-- Print the average number of characters. Make sure to truncate any decimals.
+- Print the average number of characters in both paragraphs. Make sure to truncate any decimals.
