@@ -62,6 +62,6 @@ develop-eggs/
 
 .DS_Store
 .dart_tool/
-pubspect.lock
+pubspec.lock
 
 Thumbs.db
