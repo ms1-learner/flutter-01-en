@@ -7,7 +7,7 @@ void main() {
 
     await expectLater(
       testProcess.stdout,
-      emitsThrough(contains("The total after-tax price of all the items you have is: \$46")),
+      emitsThrough(contains("The total after-tax price of all the items you have is: \$46.19")),
     );
 
     await testProcess.shouldExit(0);
