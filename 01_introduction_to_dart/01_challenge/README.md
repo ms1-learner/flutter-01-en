@@ -1,13 +1,13 @@
 # Challenge 1
 
-In this challenge, you're given a code file `cart.dart` that has a set of variables with pre-defined values for each. Each variable stores the price of an item in a grocery shop, as follows:
+In this challenge, you're given a code file `cart.dart` that has a set of variables, each with pre-defined values. Each variable stores the price of an item in a grocery shop, as follows:
 
 The apples and bananas prices are stored as integers. The values they hold are represented in cents (1 dollar = 100 cents).
 ```dart
   int apples = 250;
   int bananas = 152;
 ```
-The parmesan cheese, chicken breasts and milk are stored as strings. Parmesan cheese price is represented in cents while the other two are represented in dollars (Notice the decimal parts)
+The parmesan cheese, chicken breasts, and milk are stored as strings. Parmesan cheese price is represented in cents while the other two are represented in dollars (notice the decimal).
 ```dart
   dynamic parmesanCheese = "1999";
   dynamic chickenBreasts = "15.99";
