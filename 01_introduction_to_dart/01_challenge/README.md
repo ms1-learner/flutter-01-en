@@ -19,5 +19,5 @@ Your tasks are as follows:
 - Convert each string that doesn't have a dot `"."`  to an integer using the appropriate `parse` method you learned in unit 1.
 - Calculate the total price of all items in cents. This means that you'll need to multiply any price that is represented in dollars by 100.
 - Add 10 percent tax to the total price you calculated in the previous step.
-- Convert the total after-tax price from cents to dollars.
-- Print a statement that reads "The total after-tax price of all the items you have is: $`X`" where `X` is the total price after tax. The price should be a dollar amount of the type `double` and rounded to the nearest cent.
+- Convert the total after-tax price from cents to a dollar amount of the type `double` that is rounded to the nearest cent.
+- Print a statement that reads "The total after-tax price of all the items you have is: $`X`" where `X` is the total price after tax.
