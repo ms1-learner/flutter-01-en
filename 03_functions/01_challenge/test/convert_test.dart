@@ -1,6 +1,5 @@
 import 'package:test/test.dart';
 
-// Assuming your original code is in 'main.dart' or adjust the import accordingly
 import '../convert.dart';
 
 void main() {
@@ -11,16 +10,13 @@ void main() {
 
       var listOfMaps = [p1, p2];
 
-      // The expected output based on your function's logic
       var expectedOutput = [
         ["Walkman", 19.99],
         ["Toothpaste", 2.99]
       ];
 
-      // Actual call to your function
       var result = convert(listOfMaps);
 
-      // Check if the result matches the expected output
       expect(result, equals(expectedOutput));
     });
 
