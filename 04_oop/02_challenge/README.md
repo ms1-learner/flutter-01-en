@@ -12,14 +12,12 @@ Methods:
 - `displayStatus()`: An abstract method that will be implemented by the subclasses.
 
 
-**Step 2**: Implement the following subclasses of the `ElectronicDevice` class:
+**Step 2**: Implement `TV` and `Laptop` subclasses of the `ElectronicDevice` class:
 
-`TV`:
-Properties:
+`TV` Properties:
 - `screenSize` (double) - Represents the size of the television screen.
 
-`Laptop`:
-Properties:
+`Laptop` Properties:
 - `batteryPercentage` (double) - Represents the battery percentage of the laptop.
 
 **Step 3**: Ensure that the properties of the `ElectronicDevice`, `TV`, and `Laptop` classes are encapsulated properly, using getter methods to access properties.
