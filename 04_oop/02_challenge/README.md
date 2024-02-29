@@ -24,5 +24,5 @@ Properties:
 
 **Step 3**: Ensure that the properties of the `ElectronicDevice`, `TV`, and `Laptop` classes are encapsulated properly, using getter methods to access properties.
 
-**Step 4**: Create a list of ElectronicDevice objects that includes both televisions and laptops.
-Iterate over the list and call the displayStatus method for each device.
+**Step 4**: Create a list of `ElectronicDevice` objects that includes both televisions and laptops.
+Iterate over the list and call the `displayStatus` method for each device.
