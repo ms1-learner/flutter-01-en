@@ -1,9 +1,9 @@
 In this challenge, you will create a simple banking application using classes. Inside the provided `BankAccount` class, add the following properties and methods:
 
 Properties:
-`accountNumber` (int)
-`accountHolder` (String)
-`_balance` (double)
+- `accountNumber` (int)
+- `accountHolder` (String)
+- `_balance` (double)
 
 Note: `_balance` is a private variable. You will need to add this getter method:
 
@@ -13,13 +13,13 @@ get balance => _balance;
 
 Methods:
 
-`double deposit(double amount)`: Adds the specified amount to the balance. Returns the updated balance.
-`double withdraw(double amount)`: Subtracts the specified amount from the balance. Returns the updated balance.
-`void displayAccountInfo()`: Prints the account information (account number, account holder, and balance) in the following format:
-- Account Number: 1234567
-- Account Holder: John Smith
-- Balance: 1000.0
-`void calculateInterest(double rate)`: Calculates and adds interest to the account. This method must call `deposit` with the updated value after the interest calculation.
+- `double deposit(double amount)`: Adds the specified amount to the balance. Returns the updated balance.
+- `double withdraw(double amount)`: Subtracts the specified amount from the balance. Returns the updated balance.
+- `void displayAccountInfo()`: Prints the account information (account number, account holder, and balance) in the following format:
+  - Account Number: 1234567
+  - Account Holder: John Smith
+  - Balance: 1000.0
+- `void calculateInterest(double rate)`: Calculates and adds interest to the account. This method must call `deposit` with the updated value after the interest calculation.
 
 
 After setting up the class, do the following inside your `main` function:
