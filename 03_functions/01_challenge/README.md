@@ -7,5 +7,5 @@ The main task here is to update the `convert` function to return a list that con
 An example of the expected functionality:
 
 ```dart
-convert([map1, map2, map3]); // [[all values of map1], [all values of map2], [all values of map 3]]
+convert([map1, map2]); // [[all values of map1], [all values of map2]]
 ```
